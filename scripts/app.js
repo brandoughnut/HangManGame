@@ -107,7 +107,10 @@ userInput.addEventListener("keydown", function(event) {
         wrongGuess += guess;
         wrongGuesses.textContent = wrongGuess;
         guesses++;
+        console.log(guesses);
       }
+
+      
 
       updateGameState();
       userInput.value = "";
